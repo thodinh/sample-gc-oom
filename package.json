@@ -1,0 +1,21 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.samplegcoom",
+    "tns-android": {
+      "version": "2.2.0"
+    }
+  },
+  "dependencies": {
+    "tns-core-modules": "2.2.1"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.14.0",
+    "babel-types": "6.14.0",
+    "babylon": "6.9.1",
+    "lazy": "1.0.11"
+  }
+}

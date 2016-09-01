@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Button text="Alloc" tap="{{ onAlloc }}" />
+	<Button text="Alloc + GC" tap="{{ onAllocAndGC }}" />
+  </StackLayout>
+</Page>

@@ -8,7 +8,7 @@ function createViewModel() {
 		return arr.length;
 	}
 
-    viewModel.onAlloc = function() {
+	viewModel.onAlloc = function() {
 		this.alloc(50 * 1024 * 1024);
     }
 	
